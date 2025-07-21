@@ -1,5 +1,6 @@
 # Fitness Fusion - Your All-in-One Workout & Diet Tracker
 Fitness Fusion is a modern, responsive web application designed to be your ultimate fitness companion. It allows users to seamlessly track their workouts, visualize their progress over time, and get intelligent, AI-powered dietary advice to support their health goals.
+<br>
 Check out here : https://fitness-fusion-pbx6.onrender.com
 
 <img src = "fit1.png">
