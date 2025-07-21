@@ -1,26 +1,36 @@
 # Fitness Fusion - Your All-in-One Workout & Diet Tracker
 Fitness Fusion is a modern, responsive web application designed to be your ultimate fitness companion. It allows users to seamlessly track their workouts, visualize their progress over time, and get intelligent, AI-powered dietary advice to support their health goals.
 
+<img src = "fit1.png">
+
 # ✨ Features
 -> User Authentication: Secure user registration and login system using Firebase Authentication.
 
 -> Personalized Profiles: Users can sign up with their name and age, which is displayed in a dedicated profile section.
 
-Workout Tracking:
+<img src = "fit2.png">
+
+# Workout Tracking:
 
 Select from a comprehensive list of exercises categorized by muscle group.
 
+<img src = "fit3.png">
+
 An integrated timer to accurately track workout duration.
+
+<img src = "fit4.png">
 
 Automatic calculation of estimated calories burned per session.
 
-Progress Dashboard:
+# Progress Dashboard:
 
 Visualize daily workout duration with an interactive bar chart.
 
 View a detailed summary table of total time and calories burned for each exercise.
 
 Downloadable Reports: Generate and download a workout report.
+
+<img src = "fit5.png">
 
 # AI Diet Assistant:
 
