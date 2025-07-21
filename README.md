@@ -22,7 +22,9 @@ View a detailed summary table of total time and calories burned for each exercis
 
 Downloadable Reports: Generate and download a workout report.
 
-AI Diet Assistant:
+# AI Diet Assistant:
+
+<img src = "fit6.png">
 
 Ask about any food item in natural language.
 
