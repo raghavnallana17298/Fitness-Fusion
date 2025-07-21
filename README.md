@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# Fitness Fusion - Your All-in-One Workout & Diet Tracker
+Fitness Fusion is a modern, responsive web application designed to be your ultimate fitness companion. It allows users to seamlessly track their workouts, visualize their progress over time, and get intelligent, AI-powered dietary advice to support their health goals.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ✨ Features
+-> User Authentication: Secure user registration and login system using Firebase Authentication.
 
-## Available Scripts
+-> Personalized Profiles: Users can sign up with their name and age, which is displayed in a dedicated profile section.
 
-In the project directory, you can run:
+Workout Tracking:
 
-### `npm start`
+Select from a comprehensive list of exercises categorized by muscle group.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+An integrated timer to accurately track workout duration.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Automatic calculation of estimated calories burned per session.
 
-### `npm test`
+Progress Dashboard:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Visualize daily workout duration with an interactive bar chart.
 
-### `npm run build`
+View a detailed summary table of total time and calories burned for each exercise.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Downloadable Reports: Generate and download a workout report.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+AI Diet Assistant:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Ask about any food item in natural language.
 
-### `npm run eject`
+Receive instant nutritional information (calories, protein, carbs, fats) and a clear recommendation, powered by the Google Gemini API.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Sleek & Responsive UI: A clean, modern interface built with Tailwind CSS that looks great on any device.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 🚀 Tech Stack
+Frontend: React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Backend & Database: Firebase (Authentication & Firestore)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Styling: Tailwind CSS
 
-## Learn More
+Charts: Recharts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+PDF Generation: jsPDF & jspdf-autotable
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+AI: Google Gemini API
 
-### Code Splitting
+Icons: Lucide React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# 🏁 Getting Started
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-### Analyzing the Bundle Size
+Prerequisites
+Node.js (which includes npm) installed on your machine.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+A Firebase project set up with Authentication and Firestore enabled.
 
-### Making a Progressive Web App
+An API key from Google AI Studio for the Gemini API.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Installation
+Clone the repository:
 
-### Advanced Configuration
+git clone https://github.com/your-username/fitness-fusion-app.git
+cd fitness-fusion-app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Install NPM packages:
 
-### Deployment
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Set up environment variables:
 
-### `npm run build` fails to minify
+Create a .env file in the root of your project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Add your Firebase project configuration and your Gemini API key to this file. Each variable must be prefixed with REACT_APP_.
+
+# Firebase Config
+REACT_APP_FIREBASE_API_KEY="YOUR_FIREBASE_API_KEY"
+REACT_APP_FIREBASE_AUTH_DOMAIN="YOUR_FIREBASE_AUTH_DOMAIN"
+REACT_APP_FIREBASE_PROJECT_ID="YOUR_FIREBASE_PROJECT_ID"
+REACT_APP_FIREBASE_STORAGE_BUCKET="YOUR_FIREBASE_STORAGE_BUCKET"
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID="YOUR_FIREBASE_MESSAGING_SENDER_ID"
+REACT_APP_FIREBASE_APP_ID="YOUR_FIREBASE_APP_ID"
+REACT_APP_FIREBASE_MEASUREMENT_ID="YOUR_FIREBASE_MEASUREMENT_ID"
+
+# Gemini API Key
+REACT_APP_GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
+
+Start the development server:
+
+npm start
+
+The application will be available at http://localhost:3000.
+
+# 🚀 Deployment
+This application is ready for deployment on static site hosting platforms like Render, Vercel, or Netlify.
+
+When deploying, remember to configure the same environment variables that you set in your .env file in the deployment service's settings.
+
+Build Command: npm install && npm run build
+
+Publish Directory: build
